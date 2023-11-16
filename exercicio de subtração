@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diferença em JavaScript</title>
+</head>
+<body>
+  <h1>Diferença entre 30 e 10 em JavaScript</h1>
+
+  <script>
+    // Calcular a diferença
+    var diferenca = 30 - 10;
+
+    // Exibir o resultado em um alerta
+    alert("A diferença entre 30 e 10 é: " + diferenca);
+  </script>
+</body>
+</html>
