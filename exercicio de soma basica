@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soma Básica em JavaScript</title>
+</head>
+<body>
+  <h1>Soma Básica em JavaScript</h1>
+
+  <script>
+    // Função para realizar a soma
+    function realizarSoma() {
+      // Obter os valores dos campos de entrada
+      var valor1 = parseFloat(document.getElementById("valor1").value);
+      var valor2 = parseFloat(document.getElementById("valor2").value);
+
+      // Verificar se os valores são válidos
+      if (isNaN(valor1) || isNaN(valor2)) {
+        alert("Por favor, insira números válidos.");
+      } else {
+        // Calcular a soma
+        var resultado = valor1 + valor2;
+
+        // Exibir o resultado
+        alert("A soma é: " + resultado);
+      }
+    }
+  </script>
+
+  <!-- Formulário de entrada -->
+  <label for="valor1">Valor 1:</label>
+  <input type="text" id="valor1">
+
+  <label for="valor2">Valor 2:</label>
+  <input type="text" id="valor2">
+
+  <button onclick="realizarSoma()">Calcular Soma</button>
+</body>
+</html>
